@@ -1,20 +1,21 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+This treebank is a translation of English ATIS (Airline Travel Information System) corpus (see References). It consists of 5432 sentences.
 
 
 # Introduction
 
-...
+After a machine translation process, faulty sentences were corrected by experts. All dependency relations were manually annotated. The data is split into three sets as 4274 training, 572 development, and 586 test items. The corpus mainly consists of questions/requests regarding travel information, particularly focused on aviation. 
 
 
 # Acknowledgments
 
-...
+We wish to thank all the contributors and the Starlang Software for funding and supporting this work.
+
 
 ## References
 
-* (citation)
+* English ATIS corpus: https://github.com/howl-anderson/ATIS_dataset/blob/master/README.en-US.md
 
 
 # Changelog
@@ -34,8 +35,8 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Köse, Mehmet
+Contributors: Köse, Mehmet; Kuzgun, Aslı; Cesur, Neslihan; Yıldız, Olcay Taner
 Contributing: here
-Contact: kuzgunasli@gmail.com
+Contact: mehmetkse@gmail.com, olcaytaner@gmail.com 
 ===============================================================================
 </pre>
