@@ -35,7 +35,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Köse, Mehmet; Kuzgun, Aslı; Cesur, Neslihan; Yıldız, Olcay Taner
+Contributors: Köse, Mehmet; Yıldız, Olcay Taner
 Contributing: here
 Contact: mehmetkse@gmail.com, olcaytaner@gmail.com 
 ===============================================================================
