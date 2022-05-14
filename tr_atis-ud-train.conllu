@@ -20,7 +20,7 @@
 # text = Şimdi Fort Worth'dan ayrılan ve en geç gelecek pazartesi akşam 2'ye kadar Denver'e varacak bir uçağa ihtiyacım var
 1	Şimdi	şimdi	ADV	_	_	4	advmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	ayrılan	ayır	ADJ	_	_	16	acl	_	_
 5	ve	ve	CCONJ	_	_	14	cc	_	_
 6	en	en	ADV	_	Degree=Sup	7	advmod	_	_
@@ -1943,7 +1943,7 @@
 3	BWI'den	bwı	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	uçuyor	uç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0146.train
@@ -3197,7 +3197,7 @@
 5	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 6	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 7	Fort	fort	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
-8	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
+8	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	7	flat	_	_
 9	giden	git	ADJ	_	_	10	acl	_	_
 10	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3403,7 +3403,7 @@
 2	kalkıp	kalk	ADV	_	_	8	advcl	_	_
 3	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
 4	Forth	forth	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
-5	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
+5	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
 7	önce	önce	ADP	_	_	6	case	_	_
 8	varan	var	ADJ	_	_	9	amod	_	_
@@ -3600,7 +3600,7 @@
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	5	flat	_	_
 7	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
 8	giden	git	ADJ	_	_	9	acl	_	_
 9	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	_
@@ -4698,7 +4698,7 @@
 7	yerine	yerine	ADV	_	_	11	advmod	_	_
 8	Dallah	Dallah	PROPN	_	Case=Nom|Number=Sing	11	obl	_	_
 9	Forth	forth	PROPN	_	Case=Nom|Number=Sing	8	flat	_	_
-10	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
+10	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	9	flat	_	_
 11	durarak	dur	ADV	_	_	12	advcl	_	_
 12	alabilir	al	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	miyim	mi	AUX	_	PronType=Int	12	aux	_	_
@@ -4805,7 +4805,7 @@
 # text = Dallas Fort Worth'dan San Francisco International'a giden American Airlines'teki birinci sınıf uçuşları göster
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 5	Francisco	francisco	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	International'a	ınternational	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
@@ -5983,7 +5983,7 @@
 # text = Dallas Fort Worth'da mola vererek San Francisco'dan Boston'a uçmak istiyorum ve Delta Havayolları ile uçmak istiyorum
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	2	flat	_	_
 4	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 5	vererek	ver	ADV	_	_	9	advcl	_	_
 6	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -6004,7 +6004,7 @@
 2	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	0	root	_	_
 3	lütfen	lütfen	ADV	_	_	2	discourse	_	_
 4	Fort	fort	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
-5	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
+5	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	4	flat	_	_
 6	bir	bir	NUM	_	NumType=Card	7	amod	_	_
 7	molalı	molalı	ADJ	_	_	2	amod	_	_
 
@@ -6043,7 +6043,7 @@
 5	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod	_	_
 6	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 7	Fort	fort	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
-8	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
+8	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	7	flat	_	_
 9	molası	mola	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
 10	olan	ol	ADJ	_	_	12	acl	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
@@ -6061,7 +6061,7 @@
 6	Las	Las	PROPN	_	Case=Nom|Number=Sing	15	nmod	_	_
 7	Vegas'a	vegas	PROPN	_	Case=Dat|Number=Sing	6	flat	_	_
 8	St.	St.	PROPN	_	Case=Nom|Number=Sing	10	nmod	_	_
-9	Louis'te	louis	PROPN	_	Case=Loc|Number=Sing	8	goeswith	_	_
+9	Louis'te	louis	PROPN	_	Case=Loc|Number=Sing	8	flat	_	_
 10	molası	mola	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	olan	ol	ADJ	_	_	15	acl	_	_
 12	505	505	NUM	_	NumType=Card	13	nummod	_	_
@@ -6184,7 +6184,7 @@
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	5	flat	_	_
 7	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	8	compound	_	_
 8	veren	ver	ADJ	_	_	10	acl	_	_
 9	bir	bir	DET	_	Definite=Ind|PronType=Art	10	det	_	_
@@ -6259,7 +6259,7 @@
 4	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
 5	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
 6	Fort	fort	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
-7	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
+7	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	6	flat	_	_
 8	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
 9	veren	ver	ADJ	_	_	11	acl	_	_
 10	hangi	hangi	ADJ	_	_	11	amod	_	_
@@ -6272,7 +6272,7 @@
 2	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 4	Fort	fort	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
-5	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
+5	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	4	flat	_	_
 6	duracak	dur	ADJ	_	_	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
 8	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
@@ -6300,7 +6300,7 @@
 # text = Dallas Fort Worth'da mola veren Oakland'dan Denver'e bir uçuş arıyorum
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	2	flat	_	_
 4	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 5	veren	ver	ADJ	_	_	9	acl	_	_
 6	Oakland'dan	oakland	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
@@ -6351,7 +6351,7 @@
 4	Oakland'a	oakland	PROPN	_	Case=Dat|Number=Sing	11	nmod	_	_
 5	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
 6	Fort	fort	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
-7	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	6	goeswith	_	_
+7	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	6	flat	_	_
 8	molalı	molalı	ADJ	_	_	11	amod	_	_
 9	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
 10	uçak	uçak	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
@@ -6368,7 +6368,7 @@
 5	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod	_	_
 6	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 7	Fort	fort	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
-8	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
+8	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	7	flat	_	_
 9	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
 10	veren	ver	ADJ	_	_	12	acl	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
@@ -6416,7 +6416,7 @@
 5	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 6	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 7	Fort	fort	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
-8	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
+8	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	7	flat	_	_
 9	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
 10	veren	ver	ADJ	_	_	12	acl	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
@@ -6596,12 +6596,12 @@
 # text = Dallas Fort Worth'dan San Francisco'ya Dallas Fort Worth'dan 1940'ta kalkan aktarmalı uçuşun güzergahını göster
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	12	nmod	_	_
 5	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 7	Fort	fort	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
-8	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
+8	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	7	flat	_	_
 9	1940'ta	1940	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl	_	_
 10	kalkan	kalk	ADJ	_	_	12	acl	_	_
 11	aktarmalı	aktarmalı	ADJ	_	_	12	amod	_	_
@@ -6824,7 +6824,7 @@
 # text = Dallas Fort Worth'dan ya San Francisco'ya ya da Oakland'a tüm direkt uçuşları göster
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	ya	ya	CCONJ	_	_	5	cc	_	_
 5	San	san	PROPN	_	Case=Nom|Number=Sing	12	nmod	_	_
 6	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
@@ -8560,7 +8560,7 @@
 3	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	5	flat	_	_
 7	değil	değil	AUX	_	_	4	aux	_	_
 8	Oakland'dan	oakland	PROPN	_	Case=Abl|Number=Sing	9	nmod	_	_
 9	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	10	nmod	_	_
@@ -9806,7 +9806,7 @@
 # text = Dallas Fort Worth'dan San Francisco'ya en ucuz uçuş nedir
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 5	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	en	en	ADV	_	Degree=Sup	7	advmod	_	_
@@ -10301,7 +10301,7 @@
 # sent_id = 0849.train
 # text = Forth Worth'da karayolu ulaşımı nasıldır
 1	Forth	forth	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-2	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
+2	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	1	flat	_	_
 3	karayolu	karayol	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
 4	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	nasıldır	nasıl	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10325,7 +10325,7 @@
 # sent_id = 0852.train
 # text = Fort Worth'da mevcut karayolu ulaşımını bilmek istiyorum
 1	Fort	fort	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-2	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
+2	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	1	flat	_	_
 3	mevcut	mevcut	ADJ	_	_	5	amod	_	_
 4	karayolu	karayol	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	ulaşımını	ulaşım	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
@@ -10346,7 +10346,7 @@
 # text = Dallas Fort Worth'da karayolu ulaşımı hakkında bilgi almak istiyorum
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	2	flat	_	_
 4	karayolu	karayol	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 6	hakkında	hakkında	ADV	_	_	8	advmod	_	_
@@ -10407,7 +10407,7 @@
 # text = Bana Fort Worth'daki karayolu ulaşımını göster
 1	Bana	ben	PRON	_	PronType=Prs	6	obl	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-3	Worth'daki	Worth'daki	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'daki	Worth	PROPN	_	_	2	flat	_	_
 4	karayolu	karayol	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	ulaşımını	ulaşım	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
 6	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10477,7 +10477,7 @@
 13	de	de	CCONJ	_	_	17	cc	_	_
 14	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	17	nmod	_	_
 15	Fort	fort	PROPN	_	Case=Nom|Number=Sing	14	flat	_	_
-16	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	15	flat	_	_
+16	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	15	flat	_	_
 17	aktarmalı	aktarmalı	ADJ	_	_	11	conj	_	_
 18	tüm	tüm	DET	_	PronType=Art	19	det	_	_
 19	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	20	obj	_	_
@@ -11998,7 +11998,7 @@
 3	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nmod	_	_
 5	Ontario'dan	ontario	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
-6	Westchester'e	Westchester'e	PROPN	_	Case=Nom|Number=Sing	16	nmod	_	_
+6	Westchester'e	Westchester	PROPN	_	Case=Dat|Number=Sing	16	nmod	_	_
 7	Chicago'da	chicago	PROPN	_	Case=Loc|Number=Sing	9	obl	_	_
 8	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
 9	veren	ver	ADJ	_	_	16	acl	_	_
@@ -12284,7 +12284,7 @@
 # text = Philadelphia'dan Fort Worth'a en erken kahvaltılı uçuş nedir
 1	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
-3	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	en	en	ADV	_	Degree=Sup	5	amod	_	_
 5	erken	erken	ADV	_	_	7	amod	_	_
 6	kahvaltılı	kahvaltı	ADJ	_	_	7	amod	_	_
@@ -14014,7 +14014,7 @@
 3	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	olan	ol	ADJ	_	_	10	acl	_	_
 8	852	852	NUM	_	NumType=Card	9	nummod	_	_
 9	numaralı	numara	ADJ	_	_	10	amod	_	_
@@ -15100,10 +15100,10 @@
 9	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1227.train
-# text = Dallas Fort worth airport ile Dallas şehir merkezi arasındaki kara ulaşımından bahset
+# text = Dallas Fort Worth airport ile Dallas şehir merkezi arasındaki kara ulaşımından bahset
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	worth	worth	NOUN	_	Case=Nom|Number=Sing|Person=3	2	flat	_	_
+3	Worth	Worth	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
 4	airport	airport	NOUN	_	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 5	ile	ile	CCONJ	_	_	7	cc	_	_
 6	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -15418,12 +15418,12 @@
 9	mı	mi	AUX	_	PronType=Int	8	aux	_	_
 
 # sent_id = 1254.train
-# text = lütfen bana Dallas Fort worth airport ile Dallas şehir merkezi arasındaki karayolu ulaşım bilgilerini ver
+# text = lütfen bana Dallas Fort Worth airport ile Dallas şehir merkezi arasındaki karayolu ulaşım bilgilerini ver
 1	lütfen	lütfen	ADV	_	_	15	discourse	_	_
 2	bana	ben	PRON	_	PronType=Prs	15	obl	_	_
 3	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 4	Fort	fort	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
-5	worth	worth	NOUN	_	Case=Nom|Number=Sing|Person=3	4	flat	_	_
+5	Worth	Worth	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	airport	airport	NOUN	_	Case=Nom|Number=Sing|Person=3	5	flat	_	_
 7	ile	ile	CCONJ	_	_	9	cc	_	_
 8	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
@@ -16758,7 +16758,7 @@
 5	önce	önce	ADP	_	_	4	case	_	_
 6	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 7	Fort	fort	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
-8	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
+8	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	7	flat	_	_
 9	varacak	var	ADJ	_	_	11	acl	_	_
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
 11	uçağa	uçak	NOUN	_	Case=Dat|Number=Sing|Person=3	13	obl	_	_
@@ -18472,12 +18472,12 @@
 4	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
 
 # sent_id = 1501.train
-# text = Cincinnati ile San Jose california arasında akşam 6'dan sonra hangi uçuşlar yapılıyor
+# text = Cincinnati ile San Jose California arasında akşam 6'dan sonra hangi uçuşlar yapılıyor
 1	Cincinnati	cincinnati	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 2	ile	ile	CCONJ	_	_	3	cc	_	_
 3	San	san	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
 4	Jose	jose	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
-5	california	california	NOUN	_	Case=Nom|Number=Sing|Person=3	4	flat	_	_
+5	California	california	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
 7	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	11	nmod	_	_
@@ -19464,7 +19464,7 @@
 1	lütfen	lütfen	ADV	_	_	10	discourse	_	_
 2	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Fort	fort	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
-4	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
+4	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
 5	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 6	23	23	NUM	_	NumType=Card	7	nummod	_	_
 7	Temmuz	temmuz	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -20747,7 +20747,7 @@
 8	önce	önce	ADP	_	_	7	case	_	_
 9	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
 10	Fort	fort	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
-11	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	10	flat	_	_
+11	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	10	flat	_	_
 12	varır	var	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1697.train
@@ -21432,7 +21432,7 @@
 1	Las	Las	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	Vegas'tan	vegas	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	New	new	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
-4	York'a	york	PROPN	_	Case=Dat|Number=Sing	3	goeswith	_	_
+4	York'a	york	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	hangi	hangi	ADJ	_	_	7	amod	_	_
 6	farklı	farklı	ADJ	_	_	7	amod	_	_
 7	havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
@@ -22153,7 +22153,7 @@
 # text = bana New York'tan Miami'ye tüm aktarmasız gidiş dönüş uçuşları göster
 1	bana	ben	PRON	_	PronType=Prs	10	obl	_	_
 2	New	new	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-3	York'tan	york	PROPN	_	Case=Abl|Number=Sing	2	goeswith	_	_
+3	York'tan	york	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Miami'ye	miami	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 5	tüm	tüm	DET	_	PronType=Art	9	det	_	_
 6	aktarmasız	aktarmasız	ADJ	_	_	9	amod	_	_
@@ -22226,7 +22226,7 @@
 1	Las	Las	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	Vegas'tan	vegas	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	New	new	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
-4	York'a	york'a	NOUN	_	Case=Nom|Number=Sing|Person=3	3	flat	_	_
+4	York'a	york	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	giden	git	ADJ	_	_	9	acl	_	_
 6	aktarmasız	aktarmasız	ADJ	_	_	9	amod	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
@@ -22825,7 +22825,7 @@
 1	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 3	Fort	fort	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
-4	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
+4	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	first	first	NOUN	_	Case=Nom|Number=Sing|Person=3	8	amod	_	_
 6	class	class	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 7	American	american	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -22977,7 +22977,7 @@
 # text = Dallas Fort Worth'dan San Francisco'ya 2 first class bilete ihtiyacım var
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 5	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	2	2	NUM	_	NumType=Card	9	nummod	_	_
@@ -23202,7 +23202,7 @@
 # text = Dallas'tan San Francisco'ya günün en geç first class uçuşu hangisi
 1	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	San	san	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
-3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	goeswith	_	_
+3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	günün	gün	NOUN	_	Case=Gen|Number=Sing|Person=3	9	nmod	_	_
 5	en	en	ADV	_	Degree=Sup	6	advmod	_	_
 6	geç	geç	ADJ	_	_	9	amod	_	_
@@ -23301,7 +23301,7 @@
 # text = Dallas Fort Worth'dan San Francisco'ya first class bilet ne kadar
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 5	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	first	first	NOUN	_	Case=Nom|Number=Sing|Person=3	8	amod	_	_
@@ -23711,7 +23711,7 @@
 # text = Dallas Fort Worth'dan San Francisco'ya bir first class bilete ihtiyacım var
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 5	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	bir	bir	NUM	_	NumType=Card	9	nummod	_	_
@@ -25095,7 +25095,7 @@
 
 # sent_id = 2077.train
 # text = Washington'a hangi karayolu ulaşım olanaklarıyla ulaşılır
-1	Washington'a	washington	PROPN	_	Case=Abl|Number=Sing	6	obl	_	_
+1	Washington'a	washington	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 2	hangi	hangi	ADJ	_	_	5	amod	_	_
 3	karayolu	karayol	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
 4	ulaşım	ulaşım	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
@@ -25437,7 +25437,7 @@
 # sent_id = 2107.train
 # text = Ontario'dan Westchester'e Chicago'da aktarma yapan uçuşlar
 1	Ontario'dan	ontario	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
-2	Westchester'e	Westchester'e	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
+2	Westchester'e	Westchester	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 3	Chicago'da	chicago	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 4	aktarma	aktarma	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 5	yapan	yap	ADJ	_	_	6	acl	_	_
@@ -25660,7 +25660,7 @@
 1	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 3	Fort	fort	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
-4	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
+4	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	Philadelphia'da	philadelphia	PROPN	_	Case=Loc|Number=Sing	7	obl	_	_
 6	aktarma	aktarma	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound	_	_
 7	yapan	yap	ADJ	_	_	8	acl	_	_
@@ -26238,7 +26238,7 @@
 8	kalkıp	kalk	ADV	_	_	12	advcl	_	_
 9	Indianapolis	ındianapolis	PROPN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	üzerinden	üzeri	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	11	nmod	_	_
-11	Washington'a	washington	PROPN	_	Case=Abl|Number=Sing	12	obl	_	_
+11	Washington'a	washington	PROPN	_	Case=Dat|Number=Sing	12	obl	_	_
 12	uçuyor	uç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 2177.train
@@ -26404,7 +26404,7 @@
 # text = Atlanta'dan San Francisco'ya Dallas'ta aktarma yapan bir uçuş var mı
 1	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
-3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	goeswith	_	_
+3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	Dallas'ta	dallas	PROPN	_	Case=Loc|Number=Sing	6	obl	_	_
 5	aktarma	aktarma	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
 6	yapan	yap	ADJ	_	_	8	acl	_	_
@@ -27001,7 +27001,7 @@
 # text = Dallas Fort Worth’dan Boston'a sabah 10'dan önce olan uçuşlar var mı
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth’dan	Worth’dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth’dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
@@ -27891,7 +27891,7 @@
 8	ayrılıp	ayrıl	ADV	_	_	12	advcl	_	_
 9	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
 10	Fort	fort	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
-11	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	10	flat	_	_
+11	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	10	flat	_	_
 12	gider	git	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 2300.train
@@ -28070,7 +28070,7 @@
 # sent_id = 2312.train
 # text = Denver'den westchester County'a 7 Haziran günü akşam saat 3'ten sonra uçmam gerekiyor
 1	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
-2	westchester	westchester	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+2	westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	11	obl	_	_
 3	County'a	county	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	7	7	NUM	_	NumType=Card	5	nummod	_	_
 5	Haziran	haziran	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -28215,7 +28215,7 @@
 # text = 8 Haziran'da westchester ilçesinden Cincinnati'ye saat 3'ten sonra birleşik havayolları uçuşu yapmam gerekiyor
 1	8	8	NUM	_	NumType=Card	2	nummod	_	_
 2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	12	obl	_	_
-3	westchester	westchester	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+3	westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	ilçesinden	ilçe	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	Cincinnati'ye	cincinnati	PROPN	_	Case=Dat|Number=Sing	11	nmod	_	_
 6	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -29167,7 +29167,7 @@
 2	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 4	Fort	fort	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
-5	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
+5	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	son	son	ADJ	_	_	7	amod	_	_
 7	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -29800,7 +29800,7 @@
 # sent_id = 2454.train
 # text = Boston'dan Washington'a kalkan en erken sabah uçuşu nedir
 1	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
-2	Washington'a	washington	PROPN	_	Case=Abl|Number=Sing	3	obl	_	_
+2	Washington'a	washington	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	kalkan	kalk	ADJ	_	_	7	acl	_	_
 4	en	en	ADV	_	Degree=Sup	5	advmod	_	_
 5	erken	erken	ADV	_	_	7	amod	_	_
@@ -30076,7 +30076,7 @@
 1	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 3	Fort	fort	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
-4	Worth'a	worth'a	NOUN	_	Case=Nom|Number=Sing|Person=3	3	flat	_	_
+4	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	8	8	NUM	_	NumType=Card	6	nummod	_	_
 6	Ağustos'taki	ağustos	PROPN	_	_	9	amod	_	_
 7	en	en	ADV	_	Degree=Sup	8	advmod	_	_
@@ -32005,7 +32005,7 @@
 # text = bana Detroit'ten westchester ilçesine en yüksek tek yön ücreti olan uçuşu göster
 1	bana	ben	PRON	_	PronType=Prs	12	obl	_	_
 2	Detroit'ten	detroit	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
-3	westchester	westchester	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+3	westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	ilçesine	ilçe	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
 5	en	en	ADV	_	Degree=Sup	6	advmod	_	_
 6	yüksek	yüksek	ADJ	_	_	9	amod	_	_
@@ -33599,7 +33599,7 @@
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	giden	git	ADJ	_	_	8	acl	_	_
 8	tek	tek	ADJ	_	_	10	nmod	_	_
 9	yön	yön	NOUN	_	Case=Nom|Number=Sing|Person=3	8	compound	_	_
@@ -33872,7 +33872,7 @@
 # text = bana Detroit'ten westchester ilçesine tek yönlü uçuşları göster
 1	bana	ben	PRON	_	PronType=Prs	8	obl	_	_
 2	Detroit'ten	detroit	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
-3	westchester	westchester	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+3	westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	ilçesine	ilçe	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
 5	tek	tek	ADJ	_	_	6	amod	_	_
 6	yönlü	yönlü	ADJ	_	_	7	amod	_	_
@@ -34152,7 +34152,7 @@
 1	6	6	NUM	_	NumType=Card	2	nummod	_	_
 2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod	_	_
 3	Cincinnati'den	cincinnati	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
-4	westchester	westchester	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+4	westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 5	County'a	county	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	olan	ol	ADJ	_	_	7	acl	_	_
 7	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
@@ -34307,7 +34307,7 @@
 11	misin	mi	AUX	_	PronType=Int	10	aux	_	_
 
 # sent_id = 2830.train
-# text = bana on bir Temmuz akşamı amerikan havayolları ile Fort worth Denver arasındaki uçuşları göster
+# text = bana on bir Temmuz akşamı amerikan havayolları ile Fort Worth Denver arasındaki uçuşları göster
 1	bana	ben	PRON	_	PronType=Prs	14	obl	_	_
 2	on	on	NUM	_	NumType=Card	4	nummod	_	_
 3	bir	bir	NUM	_	NumType=Card	2	compound	_	_
@@ -34317,7 +34317,7 @@
 7	havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	flat	_	_
 8	ile	ile	ADP	_	_	6	case	_	_
 9	Fort	fort	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
-10	worth	worth	NOUN	_	Case=Nom|Number=Sing|Person=3	9	flat	_	_
+10	Worth	Worth	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
 11	Denver	denver	PROPN	_	Case=Nom|Number=Sing	12	nmod	_	_
 12	arasındaki	ara	ADJ	_	_	13	amod	_	_
 13	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
@@ -34638,7 +34638,7 @@
 1	7	7	NUM	_	NumType=Card	2	nummod	_	_
 2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	6	nmod	_	_
 3	Cincinnati'den	cincinnati	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
-4	westchester	westchester	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+4	westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	County'a	county	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 7	listeleyin	listele	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -35167,7 +35167,7 @@
 # sent_id = 2900.train
 # text = Denver'den westchester County'a 7 Haziran'daki uçuşları listeleyin
 1	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
-2	westchester	westchester	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+2	westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 3	County'a	county	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	7	7	NUM	_	NumType=Card	5	nummod	_	_
 5	Haziran'daki	haziran	PROPN	_	_	6	amod	_	_
@@ -35948,7 +35948,7 @@
 # text = Washington'dan Fort Worth'a American havayolları ile olan uçuşlar hakkında bilgi
 1	Washington'dan	washington	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
-3	Worth'a	worth'a	NOUN	_	Case=Nom|Number=Sing|Person=3	2	flat	_	_
+3	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	American	american	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 5	havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	flat	_	_
 6	ile	ile	ADP	_	_	4	case	_	_
@@ -37277,7 +37277,7 @@
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	uçuyor	uç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	mu	mi	AUX	_	PronType=Int	7	aux	_	_
 
@@ -38957,7 +38957,7 @@
 # text = Dallas Fort Worth'dan Atlanta'ya çarşamba sabahı uçuşları hakkında bilgi almak istiyorum
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 5	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
@@ -39088,7 +39088,7 @@
 # text = Philadelphia'dan Fort Worth'a tüm sabah uçuşlarını göster
 1	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
-3	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	tüm	tüm	DET	_	PronType=Art	6	det	_	_
 5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	uçuşlarını	uç	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
@@ -39268,7 +39268,7 @@
 # sent_id = 3277.train
 # text = San Francisco'dan Denver'e perşembe sabahı uçuşları hakkında bilgi almak istiyorum
 1	San	san	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-2	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	1	goeswith	_	_
+2	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 4	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
@@ -40217,7 +40217,7 @@
 # text = Dallas Fort Worth'dan Philadelphia'ya uçmak istiyorum
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	uçmak	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	6	xcomp	_	_
 6	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -41061,7 +41061,7 @@
 # text = Bana Fort Worth'dan San Jose'ye olan uçuşları gösterin
 1	Bana	ben	PRON	_	PronType=Prs	8	obl	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 5	Jose'ye	jose	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	olan	ol	ADJ	_	_	7	acl	_	_
@@ -41433,7 +41433,7 @@
 3	Pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	5	flat	_	_
 7	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
 8	olan	ol	ADJ	_	_	9	acl	_	_
 9	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
@@ -41781,7 +41781,7 @@
 # text = Dallas Fort Worth'dan Atlanta'ya hangi uçuşlar mevcut
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 5	hangi	hangi	ADJ	_	_	6	amod	_	_
 6	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
@@ -44243,7 +44243,7 @@
 1	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 3	Fort	fort	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
-4	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
+4	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	olan	ol	ADJ	_	_	6	acl	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 
@@ -44315,7 +44315,7 @@
 # text = Boston'dan Fort Worth'a uçuşunuz var mı
 1	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	uçuşunuz	uç	VERB	_	Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	_
 6	mı	mi	AUX	_	PronType=Int	5	aux	_	_
@@ -44465,7 +44465,7 @@
 1	Bana	ben	PRON	_	PronType=Prs	7	obl	_	_
 2	Phoenix'den	phoenix	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
 3	Fort	fort	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
-4	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
+4	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	olan	ol	ADJ	_	_	6	acl	_	_
 6	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 7	gösterin	göster	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -44496,7 +44496,7 @@
 # text = Washington'dan Fort Worth'a olan bir uçuş hakkında bilgiye ihtiyacım var
 1	Washington'dan	washington	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	olan	ol	ADJ	_	_	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_

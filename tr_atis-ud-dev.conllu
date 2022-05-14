@@ -989,7 +989,7 @@
 7	ile	ile	ADP	_	_	6	case	_	_
 8	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 9	Fort	fort	PROPN	_	Case=Nom|Number=Sing	8	flat	_	_
-10	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
+10	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	9	flat	_	_
 11	mola	mola	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obj	_	_
 12	olacak	ol	ADJ	_	_	13	acl	_	_
 13	şekilde	şekil	NOUN	_	Case=Loc|Number=Sing|Person=3	19	amod	_	_
@@ -1343,7 +1343,7 @@
 3	önce	önce	ADP	_	_	2	case	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	8	obl	_	_
 8	kalkan	kalk	ADJ	_	_	9	acl	_	_
 9	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
@@ -1378,7 +1378,7 @@
 1	7	7	NUM	_	NumType=Card	2	nummod	_	_
 2	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	6	nmod	_	_
 3	San	san	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-4	Francisco’dan	Francisco’dan	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
+4	Francisco’dan	francisco	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
 5	Pittsburg’e	Pittsburg’e	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
 7	yapan	yap	ADJ	_	_	8	acl	_	_
@@ -1586,7 +1586,7 @@
 # text = Dallas Fort Worth'da hangi kara ulaşımı seçenekleri mevcut
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	Worth'da	Worth'da	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'da	Worth	PROPN	_	Case=Loc|Number=Sing	2	flat	_	_
 4	hangi	hangi	PRON	_	PronType=Int	7	amod	_	_
 5	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	ulaşımı	ulaşım	NOUN	_	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
@@ -1819,7 +1819,7 @@
 # sent_id = 0149.dev
 # text = San Francisco’dan Baltimore'ye 747 ile sefer yapıyor musunuz
 1	San	san	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-2	Francisco’dan	Francisco’dan	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
+2	Francisco’dan	francisco	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 4	747	747	NUM	_	NumType=Card	6	nmod	_	_
 5	ile	ile	ADP	_	_	4	case	_	_
@@ -2163,7 +2163,7 @@
 2	Airlines'in	airlines	PROPN	_	Case=Gen|Number=Sing	1	flat	_	_
 3	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	Fort	fort	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
-5	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
+5	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
 6	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 7	giden	git	ADJ	_	_	11	acl	_	_
 8	928	928	NUM	_	NumType=Card	9	nummod	_	_
@@ -2679,7 +2679,7 @@
 3	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	9	obl	_	_
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
-6	Worth'dan	Worth'dan	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
+6	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	5	flat	_	_
 7	DC	dc	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
 8	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	7	flat	_	_
 9	giden	git	ADJ	_	_	10	acl	_	_
@@ -3718,7 +3718,7 @@
 # text = Aslında Ontario'dan Westchester'e Chicago üzerinden gitmek istiyorum
 1	Aslında	aslında	ADV	_	_	7	advmod	_	_
 2	Ontario'dan	ontario	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
-3	Westchester'e	Westchester'e	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
+3	Westchester'e	Westchester	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 4	Chicago	chicago	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	üzerinden	üzeri	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	6	nmod	_	_
 6	gitmek	git	NOUN	_	Case=Nom|Number=Sing|Person=3	7	xcomp	_	_
@@ -6111,7 +6111,7 @@
 # text = Boston'dan Fort Worth'a uçmak istiyorum
 1	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Fort	fort	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	Worth'a	Worth'a	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+3	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	uçmak	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	5	xcomp	_	_
 5	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
