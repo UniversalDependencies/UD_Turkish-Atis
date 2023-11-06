@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Turkish-Atis:
-commit a5b64eab8ad1c94727c2684d76c15e5d8f641275
+commit e7585d15bd5afc46a6e59f6facf25eaba9bdd21c
+Merge: 0a4a38b 7964bdc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 12:41:56 2022 +0100
-Size: counted 45875 of 45875 words (nodes).
-Size: min(0, log((N/1000)**2)) = 7.65184061274947.
+Size: counted 45907 of 45907 words (nodes).
+Size: min(0, log((N/1000)**2)) = 7.6532352217707.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 13 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 36886 out of 45875 total words have one or more features.
+Features: 36937 out of 45907 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 32 out of 37 found in the corpus.
+Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         12
-Udapi: found 12 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 45875 words.
+               TOTAL         11
+Udapi: found 11 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 45907 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-Atis/tr_atis-ud-dev.conllu
 *** PASSED ***
@@ -34,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.553858692420049) = 0.142015049338474
+(weight=0.256410256410256) * (score{size}=0.553959637587104) = 0.142040932714642
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.764705882352941) = 0.0588235294117647
-(weight=0.307692307692308) * (score{udapi}=0.997384196185286) = 0.306887444980088
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.754585915296101) * (availability=1) * (validity=1) = 0.754585915296101
+(weight=0.307692307692308) * (score{udapi}=0.997603851264513) = 0.306955031158312
+(weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
+(TOTAL score=0.750521380692488) * (availability=1) * (validity=1) = 0.750521380692488
 STARS = 4
-UD_Turkish-Atis	0.754585915296101	4
+UD_Turkish-Atis	0.750521380692488	4
