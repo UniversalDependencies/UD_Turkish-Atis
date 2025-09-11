@@ -20,6 +20,9 @@ We wish to thank all the contributors and the Starlang Software for funding and 
 
 # Changelog
 
+* 2025-09-10 v2.16
+  * add parallel corpus information to machine-readable metadata
+  * add parallel data support with parallel_id metadata for cross-lingual sentence matching
 * 2021-11-15 v2.9
   * Initial release in Universal Dependencies.
 
@@ -29,7 +32,7 @@ We wish to thank all the contributors and the Starlang Software for funding and 
 Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
-Parallel: no
+Parallel: atis
 Genre: nonfiction news
 Lemmas: manual native
 UPOS: manual native
