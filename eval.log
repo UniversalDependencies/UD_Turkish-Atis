@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Turkish-Atis:
-commit 765b19c20edd89124d2a295fc8b6a330bfd8cdc2
+commit 0d8425c172bfd215a668ab451dff6969bf29bcac
+Merge: 22eef3a eb2053e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:44:46 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'tr_atis'
+Language code (from CoNLL-U file name) = 'tr'
+Found the following data files: tr_atis-ud-dev.conllu, tr_atis-ud-test.conllu, tr_atis-ud-train.conllu
 Size: counted 45907 of 45907 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.6532352217707.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,45 +23,45 @@ Features: 36937 out of 45907 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL          5
-Udapi: found 5 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 45907 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-Atis/tr_atis-ud-dev.conllu
-[Line 52 Sent 0004.dev Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'd s' does not have the 'ExtPos' feature
-Warnings: 1
+[Line 56 Sent 0004.dev]: [L3 Warning fixed-without-extpos] Fixed expression 'd s' does not have the 'ExtPos' feature
+[Line 655 Sent 0047.dev]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'gitmenin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 948 Sent 0072.dev]: [L3 Warning obl-should-be-nmod] The parent (node [14] 'Miami') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-Atis/tr_atis-ud-test.conllu
-[Line 1184 Sent 0101.test Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'teşekkür ederim' does not have the 'ExtPos' feature
-[Line 2053 Sent 0173.test Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'mümkün olan' does not have the 'ExtPos' feature
-[Line 2352 Sent 0197.test Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'mümkün olan' does not have the 'ExtPos' feature
-[Line 4268 Sent 0359.test Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'mümkün olan' does not have the 'ExtPos' feature
-Warnings: 4
+[Line 321 Sent 0024.test]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'uçuşu') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1285 Sent 0101.test]: [L3 Warning fixed-without-extpos] Fixed expression 'teşekkür ederim' does not have the 'ExtPos' feature
+[Line 2184 Sent 0170.test]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'uçuşların') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2226 Sent 0173.test]: [L3 Warning fixed-without-extpos] Fixed expression 'mümkün olan' does not have the 'ExtPos' feature
+[Line 2549 Sent 0197.test]: [L3 Warning fixed-without-extpos] Fixed expression 'mümkün olan' does not have the 'ExtPos' feature
+[Line 4627 Sent 0359.test]: [L3 Warning fixed-without-extpos] Fixed expression 'mümkün olan' does not have the 'ExtPos' feature
+[Line 5081 Sent 0394.test]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'ücret') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-Atis/tr_atis-ud-train.conllu
-[Line 684 Sent 0052.train Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tür' does not have the 'ExtPos' feature
-[Line 975 Sent 0074.train Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ne tür' does not have the 'ExtPos' feature
-[Line 2326 Sent 0179.train Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Peki ya' does not have the 'ExtPos' feature
-[Line 2904 Sent 0234.train Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Peki ya' does not have the 'ExtPos' feature
-[Line 5118 Sent 0425.train Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'herhangi bir' does not have the 'ExtPos' feature
-[Line 5169 Sent 0428.train Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'herhangi bir' does not have the 'ExtPos' feature
-[Line 5189 Sent 0429.train Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'herhangi bir' does not have the 'ExtPos' feature
-[Line 5428 Sent 0444.train Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'her biri' does not have the 'ExtPos' feature
-[Line 6850 Sent 0562.train Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'herhangi bir' does not have the 'ExtPos' feature
-[Line 6895 Sent 0565.train Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'O zaman' does not have the 'ExtPos' feature
+[Line 110 Sent 0007.train]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'uçuşları') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 343 Sent 0025.train]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'uçuş') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 736 Sent 0052.train]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tür' does not have the 'ExtPos' feature
+[Line 810 Sent 0058.train]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'uçuşların') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1049 Sent 0074.train]: [L3 Warning fixed-without-extpos] Fixed expression 'Ne tür' does not have the 'ExtPos' feature
+[Line 1081 Sent 0077.train]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'uçuşta') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1274 Sent 0087.train]: [L3 Warning obl-should-be-nmod] The parent (node [24] 'dönüşü') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1399 Sent 0094.train]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'uçuşu') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1750 Sent 0121.train]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'uçuş') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2200 Sent 0154.train]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'uçuş') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further errors regarding Warning
-Warnings: 16
+Warnings: 96
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.553959637587104) = 0.142040932714642
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.764705882352941) = 0.0588235294117647
-(weight=0.307692307692308) * (score{udapi}=0.99891084148387) = 0.307357181995037
-(weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.750420766320566) * (availability=1) * (validity=1) = 0.750420766320566
-STARS = 4
-UD_Turkish-Atis	0.750420766320566	4
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.553959637587104) = 0.205170236143372
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.764705882352941) = 0.0849673202614379
+(weight=0.111111111111111) * (score{udeprels}=0.810810810810811) = 0.0900900900900901
+(TOTAL score=0.639980732914653) * (availability=1) * (validity=1) = 0.639980732914653
+STARS = 3
+UD_Turkish-Atis	0.639980732914653	3
