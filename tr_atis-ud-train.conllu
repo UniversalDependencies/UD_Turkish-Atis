@@ -54,7 +54,7 @@
 10	Chicago'ya	chicago	PROPN	_	Case=Dat|Number=Sing	11	obl	_	_
 11	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	13	acl	_	_
 12	bir	bir	DET	_	Definite=Ind|PronType=Art	13	det	_	_
-13	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	15	obl	_	_
+13	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	15	obl	_	_
 14	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	15	compound	_	_
 15	var	var	ADJ	_	_	0	root	_	_
 
@@ -614,7 +614,7 @@
 9	varan	var	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
 10	aktarmasız	aktarmasız	ADJ	_	_	12	amod	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
-12	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	14	obl	_	_
+12	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 13	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	compound	_	_
 14	var	var	ADJ	_	_	0	root	_	_
 
@@ -1223,7 +1223,7 @@
 2	en	en	ADV	_	Degree=Sup	3	amod	_	_
 3	erken	erken	ADJ	_	_	5	amod	_	_
 4	Boston	boston	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	kalkışı	kalk	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	11	obj	_	_
+5	kalkışı	kalkış	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obj	_	_
 6	ve	ve	CCONJ	_	_	10	cc	_	_
 7	en	en	ADV	_	Degree=Sup	8	amod	_	_
 8	son	son	ADJ	_	_	9	amod	_	_
@@ -1296,7 +1296,7 @@
 4	en	en	ADV	_	Degree=Sup	5	advmod	_	_
 5	erken	erken	ADJ	_	_	7	amod	_	_
 6	Boston	boston	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	kalkışını	kalk	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	14	obj	_	_
+7	kalkışını	kalkış	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obj	_	_
 8	ve	ve	CCONJ	_	_	13	cc	_	_
 9	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	13	nmod	_	_
 10	en	en	ADV	_	Degree=Sup	11	advmod	_	_
@@ -1827,7 +1827,7 @@
 5	Charlotte	charlotte	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 6	North	north	PROPN	_	Case=Nom|Number=Sing	5	flat	_	_
 7	Carolina'ya	carolina	PROPN	_	Case=Dat|Number=Sing	6	flat	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound	_	_
 10	var	var	ADJ	_	_	0	root	_	_
 
@@ -3870,7 +3870,7 @@
 1	Bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	obl	_	_
 2	15	15	NUM	_	NumType=Card	3	nummod	_	_
 3	Eylül'de	eylül	PROPN	_	Case=Loc|Number=Sing	13	nmod	_	_
-4	kalkış	kalk	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	5	nmod	_	_
+4	kalkış	kalkış	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	saati	saat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	csubj	_	_
 6	12'den	12	NUM	_	Case=Abl|Number=Sing|NumType=Card	8	obj	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
@@ -3897,7 +3897,7 @@
 8	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	9	acl	_	_
 9	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	13	obj	_	_
 10	ve	ve	CCONJ	_	_	12	cc	_	_
-11	kalkış	kalk	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	12	nmod	_	_
+11	kalkış	kalkış	NOUN	_	Case=Nom|Number=Sing	12	nmod	_	_
 12	saatlerini	saat	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=2	9	conj	_	_
 13	listele	listele	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
@@ -4166,7 +4166,7 @@
 9	önce	önce	ADP	_	_	8	case	_	_
 10	Oakland'dan	oakland	PROPN	_	Case=Abl|Number=Sing	11	obl	_	_
 11	kalkan	kalk	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
-12	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	17	obl	_	_
+12	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	17	obl	_	_
 13	ve	ve	CCONJ	_	_	15	cc	_	_
 14	ücret	ücret	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	_
 15	bilgilerine	bilgi	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	12	conj	_	_
@@ -4939,10 +4939,10 @@
 3	hangi	hangi	ADJ	_	_	5	amod	_	_
 4	havayolu	havayol	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 5	şirketinin	şirket	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nmod	_	_
-6	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	9	obl	_	_
+6	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	9	nmod	_	_
 7	en	en	ADV	_	Degree=Sup	8	advmod	_	_
 8	çok	çok	ADV	_	_	9	amod	_	_
-9	kalkışa	kalk	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	11	obl	_	_
+9	kalkışa	kalkış	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
 10	sahip	sahip	NOUN	_	Case=Nom|Number=Sing	11	compound	_	_
 11	olduğunu	ol	VERB	_	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Vnoun	12	ccomp	_	_
 12	söyle	söyle	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
@@ -5261,7 +5261,7 @@
 9	önce	önce	ADP	_	_	8	case	_	_
 10	varacak	var	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	12	acl	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
-12	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	14	obl	_	_
+12	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 13	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	compound	_	_
 14	var	var	ADJ	_	_	0	root	_	_
 
@@ -7323,14 +7323,14 @@
 # text = 7 Mayıs kalkışlı Atlanta'dan Denver'e giden en ucuz direkt uçuşa ihtiyacım var
 1	7	7	NUM	_	NumType=Card	2	nummod	_	_
 2	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	10	amod	_	_
+3	kalkışlı	kalkış	NOUN	_	_	10	amod	_	_
 4	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
 7	en	en	ADV	_	Degree=Sup	8	advmod	_	_
 8	ucuz	ucuz	ADJ	_	_	10	amod	_	_
 9	direkt	direkt	ADV	_	_	10	amod	_	_
-10	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	12	obl	_	_
+10	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	12	obl	_	_
 11	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	12	compound	_	_
 12	var	var	ADJ	_	_	0	root	_	_
 
@@ -7877,7 +7877,7 @@
 9	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	8	flat	_	_
 10	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
-12	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	14	obl	_	_
+12	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 13	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
 14	yaz	yaz	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
@@ -7907,7 +7907,7 @@
 3	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	4	obl	_	_
 4	ayrılan	ayır	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	10	acl	_	_
 5	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	10	amod	_	_
+6	kalkışlı	kalkış	NOUN	_	_	10	amod	_	_
 7	ve	ve	CCONJ	_	_	9	cc	_	_
 8	Boston	boston	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 9	varışlı	var	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	6	conj	_	_
@@ -9868,7 +9868,7 @@
 9	sonra	sonra	ADP	_	_	8	case	_	_
 10	kalkan	kalk	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
-12	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	14	obl	_	_
+12	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 13	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	compound	_	_
 14	var	var	ADJ	_	_	0	root	_	_
 
@@ -10024,7 +10024,7 @@
 7	pazar	pazar	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 8	kalkan	kalk	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
 9	bir	bir	DET	_	Definite=Ind|PronType=Art	10	det	_	_
-10	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	12	obl	_	_
+10	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	12	obl	_	_
 11	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	12	compound	_	_
 12	var	var	ADJ	_	_	0	root	_	_
 
@@ -10741,9 +10741,9 @@
 2	Mitchell	mitchell	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
 3	Havalimanı'ndaki	havaliman	NOUN	_	_	2	flat	_	_
 4	tüm	tüm	DET	_	Definite=Def|PronType=Ind	5	det	_	_
-5	kalkış	kalk	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obj	_	_
+5	kalkış	kalkış	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 6	ve	ve	CCONJ	_	_	7	case	_	_
-7	inişleri	iniş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	conj	_	_
+7	inişleri	iniş	NOUN	_	Case=Acc|Number=Plur	5	conj	_	_
 8	listele	listele	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0812.train
@@ -10773,9 +10773,9 @@
 2	Mitchell	mitchell	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
 3	International'daki	ınternational	PROPN	_	_	2	flat	_	_
 4	tüm	tüm	DET	_	Definite=Def|PronType=Ind	5	det	_	_
-5	kalkışları	kalk	VERB	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	8	obj	_	_
+5	kalkışları	kalkış	NOUN	_	Case=Acc|Number=Plur	8	obj	_	_
 6	ve	ve	CCONJ	_	_	7	cc	_	_
-7	inişleri	iniş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	5	conj	_	_
+7	inişleri	iniş	NOUN	_	Case=Acc|Number=Plur	5	conj	_	_
 8	listele	listele	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0815.train
@@ -10816,9 +10816,9 @@
 1	General	general	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Mitchell	mitchell	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
 3	International'daki	ınternational	PROPN	_	_	2	flat	_	_
-4	kalkışları	kalk	VERB	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
+4	kalkışları	kalkış	NOUN	_	Case=Acc|Number=Plur	7	obj	_	_
 5	ve	ve	CCONJ	_	_	6	cc	_	_
-6	inişleri	iniş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	conj	_	_
+6	inişleri	iniş	NOUN	_	Case=Acc|Number=Plur	4	conj	_	_
 7	listele	listele	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0819.train
@@ -10838,9 +10838,9 @@
 2	Mitchell	mitchell	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
 3	International'daki	ınternational	PROPN	_	_	2	flat	_	_
 4	tüm	tüm	DET	_	Definite=Def|PronType=Ind	5	det	_	_
-5	kalkış	kalk	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obj	_	_
+5	kalkış	kalkış	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 6	ve	ve	CCONJ	_	_	7	cc	_	_
-7	inişleri	iniş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	conj	_	_
+7	inişleri	iniş	NOUN	_	Case=Acc|Number=Plur	5	conj	_	_
 8	listele	listele	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0821.train
@@ -11657,7 +11657,7 @@
 16	Charlotte'ye	charlotte	PROPN	_	Case=Dat|Number=Sing	17	obl	_	_
 17	götürecek	götür	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	19	acl	_	_
 18	bir	bir	DET	_	Definite=Ind|PronType=Art	19	det	_	_
-19	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	21	obl	_	_
+19	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	21	obl	_	_
 20	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	21	compound	_	_
 21	var	var	ADJ	_	_	0	root	_	_
 
@@ -11742,7 +11742,7 @@
 15	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing	16	nmod	_	_
 16	9'dan	9	NUM	_	Case=Abl|Number=Sing|NumType=Card	11	conj	_	_
 17	önce	önce	ADP	_	_	16	case	_	_
-18	kalkış	kalk	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	19	compound	_	_
+18	kalkış	kalkış	NOUN	_	Case=Nom|Number=Sing	19	compound	_	_
 19	yapmak	yap	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	20	xcomp	_	_
 20	istiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -13083,7 +13083,7 @@
 5	Dallas'ta	dallas	PROPN	_	Case=Loc|Number=Sing	6	obl	_	_
 6	duran	dur	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound	_	_
 10	var	var	ADJ	_	_	0	root	_	_
 11	Dallas'ta	dallas	PROPN	_	Case=Loc|Number=Sing	12	obl	_	_
@@ -13437,7 +13437,7 @@
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	erken	erken	ADV	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 9	lütfen	lütfen	ADV	_	_	8	discourse	_	_
@@ -13697,7 +13697,7 @@
 9	Chicago'ya	chicago	PROPN	_	Case=Dat|Number=Sing	10	obl	_	_
 10	ulaşan	ulaş	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
-12	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	14	obl	_	_
+12	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 13	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	compound	_	_
 14	var	var	ADJ	_	_	0	root	_	_
 
@@ -13965,7 +13965,7 @@
 5	Toronto'ya	toronto	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	ulaşan	ulaş	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound	_	_
 10	var	var	ADJ	_	_	0	root	_	_
 
@@ -14777,7 +14777,7 @@
 # text = Washington Dc. kalkışlı Denver molalı San Francisco varışlı bir uçuş istiyorum
 1	Washington	washington	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	Dc.	Dc.	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	10	amod	_	_
+3	kalkışlı	kalkış	NOUN	_	_	10	amod	_	_
 4	Denver	denver	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	molalı	molalı	ADJ	_	_	3	conj	_	_
 6	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -16546,7 +16546,7 @@
 3	İnternational'da	international	PROPN	_	Case=Loc|Number=Sing	2	flat	_	_
 4	hangi	hangi	ADJ	_	_	5	amod	_	_
 5	uçuşlar	uçuş	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
-6	kalkış	kalk	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	0	root	_	_
+6	kalkış	kalkış	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 7	ve	ve	CCONJ	_	_	8	cc	_	_
 8	iniş	iniş	NOUN	_	Case=Nom|Number=Sing	6	conj	_	_
 
@@ -17789,7 +17789,7 @@
 # parallel_id = atis/train1339
 # text = Denver kalkışlı Chicago'ya pazartesi öğleden önce varacak tüm Continental uçuşlarını listele
 1	Denver	denver	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	10	amod	_	_
+2	kalkışlı	kalkış	NOUN	_	_	10	amod	_	_
 3	Chicago'ya	chicago	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 4	pazartesi	pazartesi	NOUN	_	Case=Nom|Number=Sing	5	nmod:tmod	_	_
 5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	7	obl:tmod	_	_
@@ -20255,7 +20255,7 @@
 4	York'a	york	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	718	718	NUM	_	NumType=Card	7	nmod:tmod	_	_
-7	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	9	amod	_	_
+7	kalkışlı	kalkış	NOUN	_	_	9	amod	_	_
 8	Twa	twa	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 9	uçuşu	uçuş	NOUN	_	Case=Acc|Number=Sing	11	nsubj	_	_
 10	ne	ne	ADV	_	_	11	compound	_	_
@@ -20614,7 +20614,7 @@
 10	civarı	civar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	case	_	_
 11	ulaşan	ulaş	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	13	acl	_	_
 12	bir	bir	DET	_	Definite=Ind|PronType=Art	13	det	_	_
-13	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	15	obl	_	_
+13	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	15	obl	_	_
 14	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	15	compound	_	_
 15	var	var	ADJ	_	_	0	root	_	_
 
@@ -20674,7 +20674,7 @@
 4	1205'te	1205	NUM	_	Case=Loc|Number=Sing|NumType=Card	5	obl:tmod	_	_
 5	varan	var	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -20716,7 +20716,7 @@
 5	varacak	var	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	8	acl	_	_
 6	aktarmasız	aktarmasız	ADJ	_	_	8	amod	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound	_	_
 10	var	var	ADJ	_	_	0	root	_	_
 11	lütfen	lütfen	ADV	_	_	10	discourse	_	_
@@ -21769,7 +21769,7 @@
 5	çok	çok	ADP	_	_	4	case	_	_
 6	aktarmalı	aktarmalı	ADJ	_	_	8	amod	_	_
 7	tüm	tüm	DET	_	Definite=Def|PronType=Ind	8	det	_	_
-8	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obj	_	_
+8	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 9	listele	listele	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1819.train
@@ -21821,7 +21821,7 @@
 2	Toronto'ya	toronto	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 3	aktarmasız	aktarmasız	ADJ	_	_	5	amod	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -22070,7 +22070,7 @@
 3	Phoenix'e	phoenix	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 4	aktarmasız	aktarmasız	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -23055,7 +23055,7 @@
 8	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	hareket	hareket	NOUN	_	Case=Nom|Number=Sing	10	compound	_	_
 10	edecek	et	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	11	acl	_	_
-11	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	12	obj	_	_
+11	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	12	obj	_	_
 12	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1916.train
@@ -23155,7 +23155,7 @@
 6	class	class	NOUN	_	Case=Nom|Number=Sing	5	compound	_	_
 7	gidiş	git	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	amod	_	_
 8	dönüş	dön	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	compound	_	_
-9	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obj	_	_
+9	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 10	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1923.train
@@ -23609,7 +23609,7 @@
 2	20	20	NUM	_	NumType=Card	3	nummod	_	_
 3	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	5	nmod	_	_
 4	Boston	boston	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	9	acl	_	_
+5	kalkışlı	kalkış	NOUN	_	_	9	acl	_	_
 6	tüm	tüm	DET	_	Definite=Def|PronType=Ind	9	det	_	_
 7	business	business	NOUN	_	Case=Nom|Number=Sing	9	amod	_	_
 8	class	class	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
@@ -23627,7 +23627,7 @@
 6	yön	yön	NOUN	_	Case=Nom|Number=Sing	5	compound	_	_
 7	first	first	NOUN	_	Case=Nom|Number=Sing	9	amod	_	_
 8	class	class	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
-9	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obj	_	_
+9	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 10	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1957.train
@@ -23680,13 +23680,13 @@
 5	ulaşan	ulaş	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	9	acl	_	_
 6	tüm	tüm	DET	_	Definite=Def|PronType=Ind	9	det	_	_
 7	Denver	denver	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
-8	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	9	amod	_	_
-9	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	15	obj	_	_
+8	kalkışlı	kalkış	NOUN	_	_	9	amod	_	_
+9	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	15	obj	_	_
 10	ve	ve	CCONJ	_	_	14	cc	_	_
 11	tüm	tüm	DET	_	Definite=Def|PronType=Ind	14	det	_	_
 12	Miami	miami	PROPN	_	Case=Nom|Number=Sing	13	nmod	_	_
-13	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	14	amod	_	_
-14	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	9	conj	_	_
+13	kalkışlı	kalkış	NOUN	_	_	14	amod	_	_
+14	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	conj	_	_
 15	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1961.train
@@ -23702,7 +23702,7 @@
 8	kadar	kadar	ADP	_	_	7	case	_	_
 9	ulaşan	ulaş	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	_
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
-11	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	13	obl	_	_
+11	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	13	obl	_	_
 12	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	13	compound	_	_
 13	var	var	ADJ	_	_	0	root	_	_
 
@@ -23718,7 +23718,7 @@
 7	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	9	obl:tmod	_	_
 8	önce	önce	ADP	_	_	7	case	_	_
 9	ulaşan	ulaş	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
-10	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	11	obj	_	_
+10	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	obj	_	_
 11	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1963.train
@@ -23743,7 +23743,7 @@
 3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	5	obl:tmod	_	_
 4	önce	önce	ADP	_	_	3	case	_	_
 5	varan	var	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
-6	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
+6	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	görmek	gör	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	xcomp	_	_
 8	istiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	10	nmod	_	_
@@ -23751,7 +23751,7 @@
 11	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	13	obl:tmod	_	_
 12	önce	önce	ADP	_	_	11	case	_	_
 13	varan	var	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	14	acl	_	_
-14	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	16	obj	_	_
+14	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	16	obj	_	_
 15	da	da	CCONJ	_	_	14	cc	_	_
 16	görmek	gör	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	17	xcomp	_	_
 17	istiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
@@ -23782,7 +23782,7 @@
 4	kadar	kadar	ADP	_	_	3	case	_	_
 5	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	varan	var	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
-7	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obj	_	_
+7	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 8	bul	bul	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1967.train
@@ -23815,7 +23815,7 @@
 6	2100'den	2100	NUM	_	Case=Abl|Number=Sing|NumType=Card	8	obl:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	varacak	var	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	9	acl	_	_
-9	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obj	_	_
+9	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 10	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1969.train
@@ -23827,7 +23827,7 @@
 4	2100'den	2100	NUM	_	Case=Abl|Number=Sing|NumType=Card	6	obl:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
 6	varacak	var	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	7	acl	_	_
-7	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obj	_	_
+7	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 8	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1970.train
@@ -23842,7 +23842,7 @@
 7	aktarmalı	aktarmalı	ADJ	_	_	10	amod	_	_
 8	aktarmasız	aktarmasız	ADJ	_	_	7	conj	_	_
 9	tüm	tüm	DET	_	Definite=Def|PronType=Ind	10	det	_	_
-10	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	11	obj	_	_
+10	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	obj	_	_
 11	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1971.train
@@ -23853,7 +23853,7 @@
 3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	5	obl:tmod	_	_
 4	önce	önce	ADP	_	_	3	case	_	_
 5	varacak	var	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	6	acl	_	_
-6	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
+6	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	görmek	gör	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	xcomp	_	_
 8	istiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -23869,7 +23869,7 @@
 7	önce	önce	ADP	_	_	6	case	_	_
 8	varacak	var	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	10	acl	_	_
 9	bir	bir	DET	_	Definite=Ind|PronType=Art	10	det	_	_
-10	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	12	obl	_	_
+10	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	12	obl	_	_
 11	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	12	compound	_	_
 12	var	var	ADJ	_	_	0	root	_	_
 
@@ -23882,7 +23882,7 @@
 4	öğle	öğle	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 5	civarı	civar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	case	_	_
 6	varacak	var	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	7	acl	_	_
-7	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obj	_	_
+7	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 8	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1974.train
@@ -23908,7 +23908,7 @@
 6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	8	obl:tmod	_	_
 7	önce	önce	ADP	_	_	6	case	_	_
 8	varacak	var	VERB	_	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	4	conj	_	_
-9	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obj	_	_
+9	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 10	söyle	söyle	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 1976.train
@@ -23934,7 +23934,7 @@
 4	arası	ara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nmod	_	_
 5	10	10	NUM	_	NumType=Card	6	nummod	_	_
 6	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
-7	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	13	amod	_	_
+7	kalkışlı	kalkış	NOUN	_	_	13	amod	_	_
 8	en	en	ADV	_	Degree=Sup	9	advmod	_	_
 9	ucuz	ucuz	ADJ	_	_	13	ccomp	_	_
 10	gidiş	git	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	13	nmod	_	_
@@ -24074,7 +24074,7 @@
 3	arası	ara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nmod	_	_
 4	10	10	NUM	_	NumType=Card	5	nummod	_	_
 5	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing	6	nmod:tmod	_	_
-6	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	11	amod	_	_
+6	kalkışlı	kalkış	NOUN	_	_	11	amod	_	_
 7	en	en	ADV	_	Degree=Sup	8	advmod	_	_
 8	ucuz	ucuz	ADJ	_	_	11	amod	_	_
 9	ekonomi	ekonomi	NOUN	_	Case=Nom|Number=Sing	11	amod	_	_
@@ -25282,7 +25282,7 @@
 # text = Seattle'ye Baltimore kalkışlı Minneapolis aktarmalı bir uçuş istiyorum
 1	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 2	Baltimore	baltimore	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	7	amod	_	_
+3	kalkışlı	kalkış	NOUN	_	_	7	amod	_	_
 4	Minneapolis	minneapolis	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	aktarmalı	aktarmalı	ADJ	_	_	3	conj	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
@@ -25503,7 +25503,7 @@
 4	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	aktarmalı	aktarmalı	ADJ	_	_	7	amod	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -26159,7 +26159,7 @@
 4	aktarma	aktarma	NOUN	_	Case=Nom|Number=Sing	5	compound	_	_
 5	yapan	yap	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -27287,7 +27287,7 @@
 8	City'e	city	PROPN	_	Case=Dat|Number=Sing	7	flat	_	_
 9	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	_
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
-11	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	13	obl	_	_
+11	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	13	obl	_	_
 12	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	13	compound	_	_
 13	var	var	ADJ	_	_	0	root	_	_
 
@@ -27612,7 +27612,7 @@
 8	City'e	city	PROPN	_	Case=Dat|Number=Sing	7	flat	_	_
 9	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	11	advcl	_	_
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
-11	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	13	obl	_	_
+11	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	13	obl	_	_
 12	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	13	compound	_	_
 13	var	var	ADJ	_	_	0	root	_	_
 
@@ -29559,7 +29559,7 @@
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	ucuz	ucuz	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -29957,7 +29957,7 @@
 2	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 3	erken	erken	ADV	_	_	5	amod	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -30299,7 +30299,7 @@
 2	Houston'a	houston	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 3	erken	erken	ADV	_	_	5	amod	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -30463,7 +30463,7 @@
 4	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 5	geç	geç	ADV	_	_	7	amod	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -30550,7 +30550,7 @@
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	ucuz	ucuz	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -32099,7 +32099,7 @@
 5	arası	ara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
 6	en	en	ADV	_	Degree=Sup	7	advmod	_	_
 7	ucuz	ucuz	ADJ	_	_	8	amod	_	_
-8	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obj	_	_
+8	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 9	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 2611.train
@@ -32195,7 +32195,7 @@
 6	arası	ara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nmod	_	_
 7	en	en	ADV	_	Degree=Sup	8	advmod	_	_
 8	ucuz	ucuz	ADJ	_	_	9	amod	_	_
-9	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obj	_	_
+9	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 10	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 2618.train
@@ -33734,7 +33734,7 @@
 9	tek	tek	ADJ	_	_	12	amod	_	_
 10	yön	yön	NOUN	_	Case=Nom|Number=Sing	9	compound	_	_
 11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
-12	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	14	obl	_	_
+12	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 13	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	compound	_	_
 14	var	var	ADJ	_	_	0	root	_	_
 
@@ -34529,7 +34529,7 @@
 3	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 4	tek	tek	ADJ	_	_	6	amod	_	_
 5	yön	yön	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
-6	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
+6	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 2796.train
@@ -35605,7 +35605,7 @@
 6	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
 7	pazartesi	pazartesi	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
 8	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	9	acl	_	_
-9	kalkışları	kalk	VERB	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	10	obj	_	_
+9	kalkışları	kalkış	NOUN	_	Case=Acc|Number=Plur	10	obj	_	_
 10	tekrarlayın	tekrarla	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 2879.train
@@ -39372,7 +39372,7 @@
 5	gecesi	gece	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl:tmod	_	_
 6	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	ne	ne	ADV	_	_	10	compound	_	_
 10	dersiniz	ders	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	0	root	_	_
 
@@ -39397,7 +39397,7 @@
 3	cuma	cuma	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	6	nmod:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
-6	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
+6	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	listeleyin	listele	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 3194.train
@@ -39524,7 +39524,7 @@
 1	lütfen	lütfen	ADV	_	_	7	discourse	_	_
 2	Boston	boston	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	Pittsburgh	pittsburgh	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	6	amod	_	_
+4	kalkışlı	kalkış	NOUN	_	_	6	amod	_	_
 5	akşam	akşam	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	uçuşlarını	uçuş	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	listeleyin	listele	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
@@ -39537,7 +39537,7 @@
 3	Burbank'e	burbank	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 4	pazar	pazar	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod:tmod	_	_
-6	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	7	amod	_	_
+6	kalkışlı	kalkış	NOUN	_	_	7	amod	_	_
 7	uçuşlar	uçuş	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
 8	nelerdir	ne	X	_	Number=Plur	0	root	_	_
 
@@ -40737,7 +40737,7 @@
 4	Detroit'e	detroit	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -41227,7 +41227,7 @@
 5	Columbus'a	columbus	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound	_	_
 10	var	var	ADJ	_	_	0	root	_	_
 
@@ -41458,7 +41458,7 @@
 12	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	11	flat	_	_
 13	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	15	acl	_	_
 14	bir	bir	DET	_	Definite=Ind|PronType=Art	15	det	_	_
-15	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	17	obl	_	_
+15	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	17	obl	_	_
 16	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	17	compound	_	_
 17	var	var	ADJ	_	_	0	root	_	_
 
@@ -42222,7 +42222,7 @@
 2	Vegas'tan	vegas	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Ontario'ya	ontario	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -42640,7 +42640,7 @@
 3	Minneapolis'e	minneapolis	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -42742,7 +42742,7 @@
 4	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -42766,7 +42766,7 @@
 5	Miami'ye	miami	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound	_	_
 10	var	var	ADJ	_	_	0	root	_	_
 
@@ -42897,7 +42897,7 @@
 12	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	11	flat	_	_
 13	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	15	acl	_	_
 14	bir	bir	DET	_	Definite=Ind|PronType=Art	15	det	_	_
-15	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	17	obl	_	_
+15	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	17	obl	_	_
 16	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	17	compound	_	_
 17	var	var	ADJ	_	_	0	root	_	_
 
@@ -42932,7 +42932,7 @@
 3	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -43421,7 +43421,7 @@
 1	American	american	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	için	için	ADP	_	_	1	case	_	_
 3	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
-4	kalkışları	kalk	VERB	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	5	obj	_	_
+4	kalkışları	kalkış	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
 5	gösterin	göster	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
 # sent_id = 3530.train
@@ -44031,7 +44031,7 @@
 3	Tampa'dan	tampa	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Charlotte'ye	charlotte	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ne	ne	ADV	_	_	8	obj	_	_
 8	dersiniz	ders	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	0	root	_	_
 
@@ -44243,7 +44243,7 @@
 3	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	nmod	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	nmod	_	_
 7	rezervasyon	rezervasyon	NOUN	_	Case=Nom|Number=Sing	8	compound	_	_
 8	yapmakla	yap	VERB	_	Case=Ins|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	nmod	_	_
 9	ilgili	ilgili	ADJ	_	_	10	amod	_	_
@@ -44444,7 +44444,7 @@
 5	City'e	city	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound	_	_
 10	var	var	ADJ	_	_	0	root	_	_
 
@@ -44643,7 +44643,7 @@
 4	Angeles'e	angeles	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -45002,7 +45002,7 @@
 4	Detroit'e	detroit	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -45143,7 +45143,7 @@
 3	Tampa'ya	tampa	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -45282,7 +45282,7 @@
 3	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -45492,7 +45492,7 @@
 3	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -45592,7 +45592,7 @@
 4	City'e	city	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	compound	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 
@@ -45637,7 +45637,7 @@
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -46115,7 +46115,7 @@
 3	Vegas'a	vegas	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -46177,7 +46177,7 @@
 3	Louis'e	louis	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -46992,7 +46992,7 @@
 2	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -47013,7 +47013,7 @@
 3	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	compound	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -47123,7 +47123,7 @@
 2	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -47229,7 +47229,7 @@
 2	Memphis'e	memphis	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -47581,7 +47581,7 @@
 2	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -47751,7 +47751,7 @@
 1	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	4	nmod	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
-4	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	6	obl	_	_
+4	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 5	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	compound	_	_
 6	var	var	ADJ	_	_	0	root	_	_
 
@@ -47934,7 +47934,7 @@
 # parallel_id = atis/train3953
 # text = Montreal kalkışlı uçuşlar
 1	Montreal	montreal	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	3	amod	_	_
+2	kalkışlı	kalkış	NOUN	_	_	3	amod	_	_
 3	uçuşlar	uçuş	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
 # sent_id = 3954.train
@@ -48527,7 +48527,7 @@
 1	Ontario'dan	ontario	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Tacoma'ya	tacoma	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	4	acl	_	_
-4	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	5	obj	_	_
+4	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	istiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 4013.train
@@ -49449,7 +49449,7 @@
 2	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -49572,7 +49572,7 @@
 1	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	4	nmod	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
-4	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	6	obl	_	_
+4	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 5	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	compound	_	_
 6	var	var	ADJ	_	_	0	root	_	_
 
@@ -49710,7 +49710,7 @@
 # parallel_id = atis/train4133
 # text = Denver kalkışlı Pittsburgh ve Atlanta'ya her iki sırayla da giden bir uçuş istiyorum
 1	Denver	denver	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	12	amod	_	_
+2	kalkışlı	kalkış	NOUN	_	_	12	amod	_	_
 3	Pittsburgh	pittsburgh	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 4	ve	ve	CCONJ	_	_	5	cc	_	_
 5	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	3	conj	_	_
@@ -49916,7 +49916,7 @@
 2	Montreal'a	montreal	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -49961,7 +49961,7 @@
 1	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	4	acl	_	_
-4	uçuşları	uç	VERB	_	Case=Acc|Number=Plur|Person=3|Polarity=Pos|VerbForm=Vnoun	5	obj	_	_
+4	uçuşları	uçuş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	görmek	gör	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	6	xcomp	_	_
 6	istiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -50052,7 +50052,7 @@
 2	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -50134,7 +50134,7 @@
 2	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -50530,7 +50530,7 @@
 2	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	compound	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 

@@ -1699,9 +1699,9 @@
 3	International	ınternational	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	için	için	ADP	_	_	3	case	_	_
 5	tüm	tüm	DET	_	Definite=Def|PronType=Ind	6	det	_	_
-6	kalkışları	kalk	VERB	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	9	obj	_	_
+6	kalkışları	kalkış	NOUN	_	Case=Acc|Number=Plur	9	obj	_	_
 7	ve	ve	CCONJ	_	_	8	cc	_	_
-8	inişleri	iniş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	6	conj	_	_
+8	inişleri	iniş	NOUN	_	Case=Acc|Number=Plur	6	conj	_	_
 9	listeleyin	listele	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 10	lütfen	lütfen	ADV	_	_	9	discourse	_	_
 
@@ -2399,7 +2399,7 @@
 6	San	san	PROPN	_	Case=Nom|Number=Sing	8	acl	_	_
 7	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	6	flat	_	_
 8	tekrarlayan	tekrarla	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	9	acl	_	_
-9	kalkışta	kalk	VERB	_	Case=Loc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	14	obl	_	_
+9	kalkışta	kalkış	NOUN	_	Case=Loc|Number=Sing	14	obl	_	_
 10	ne	ne	ADJ	_	_	13	amod	_	_
 11	tür	tür	NOUN	_	Case=Nom|Number=Sing	10	compound	_	_
 12	bir	bir	DET	_	Definite=Ind|PronType=Art	13	det	_	_
@@ -3247,7 +3247,7 @@
 8	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	case	_	_
 9	varan	var	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	_
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
-11	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	12	obl	_	_
+11	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	12	obl	_	_
 12	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 13	var	var	ADJ	_	_	12	compound	_	_
 
@@ -4084,7 +4084,7 @@
 3	Minneapolis	minneapolis	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	aktarmalı	aktarmalı	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-6	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
+6	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 7	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 8	var	var	ADJ	_	_	7	compound	_	_
 
@@ -5208,7 +5208,7 @@
 4	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 5	Continental'la	continental	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+7	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 8	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 9	var	var	ADJ	_	_	8	compound	_	_
 
@@ -5464,7 +5464,7 @@
 5	den	de	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin|Voice=Rfl	3	case	_	_
 6	Salt	salt	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 7	Lake	lake	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
-8	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	9	obl	_	_
+8	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 9	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 10	var	var	ADJ	_	_	9	compound	_	_
 
@@ -5472,7 +5472,7 @@
 # parallel_id = atis/test426
 # text = Burbank kalkışlı Alaska havayolları uçuşlarını listele
 1	Burbank	Burbank	PROPN	_	Case=Nom|Number=Sing	2	obl	_	_
-2	kalkışlı	kalk	VERB	_	Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	5	acl	_	_
+2	kalkışlı	kalkış	NOUN	_	_	5	acl	_	_
 3	Alaska	alaska	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	flat	_	_
 5	uçuşlarını	uçuş	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
@@ -7133,7 +7133,7 @@
 2	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
-5	uçuşa	uç	VERB	_	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	6	obl	_	_
+5	uçuşa	uçuş	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 7	var	var	ADJ	_	_	6	ccomp	_	_
 
